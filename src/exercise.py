@@ -4,7 +4,7 @@ def main():
     second = int(input("Give the second number:"))
     average = (first + second) / 2
 
-    print("The average is", average)
+    print("The average is " + str(average))
 
 if __name__ == '__main__':
     main()
